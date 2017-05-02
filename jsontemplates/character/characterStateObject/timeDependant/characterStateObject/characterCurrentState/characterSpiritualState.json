@@ -1,0 +1,32 @@
+"characterSpiritualState":{
+  "characterSpiritualStateID":"number",
+  "oneTooTen":"number between 1 and 10",
+  "actualState":{
+    "internalPrimarySpiritualState":"string",
+    "externalPrimarySpiritualState":"string, includes what he/she/it feels",
+    "internalSecondarySpiritualState":["array of spiritual states"],
+    "externalSecondarySpiritualState":["array of spiritual states"]
+  },
+  "appearedToReaderState":{
+    "internalPrimarySpiritualState":"string",
+    "externalPrimarySpiritualState":"string, includes what he/she/it feels",
+    "internalSecondarySpiritualState":["array of spiritual states"],
+    "externalSecondarySpiritualState":["array of spiritual states"]
+  },
+  "appeardToOtherCharacterState":[
+      {
+        "characterID":"string",
+        "internalPrimarySpiritualState":"string",
+        "externalPrimarySpiritualState":"string, includes what he/she/it feels",
+        "internalSecondarySpiritualState":["array of spiritual states"],
+        "externalSecondarySpiritualState":["array of spiritual states"]
+      }
+    ]
+  },
+  "appearedToOwnCharacterState":{
+    "internalPrimarySpiritualState":"string",
+    "externalPrimarySpiritualState":"string, includes what he/she/it feels",
+    "internalSecondarySpiritualState":["array of spiritual states"],
+    "externalSecondarySpiritualState":["array of spiritual states"]
+  }
+}

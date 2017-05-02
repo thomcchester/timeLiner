@@ -1,0 +1,8 @@
+"timeLineObject":{
+  "timeLineObjectID":"number",
+  "characters":["characterTotalObjectIDs"],
+  "events":["eventObjectID"],
+  "informationObject":["informationObjectIDs"],
+  "chapters":["chaptersID"],
+  "timeLocations":["timeLocationIDs"]
+}

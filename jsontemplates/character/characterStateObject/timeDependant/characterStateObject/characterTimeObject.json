@@ -1,0 +1,5 @@
+"characterTimeObject":{
+  "characterTimeObjectID":"number",
+  "characterCurrentStateObjectID":"number",
+  "characterBeingStateObjectID":"number"
+}

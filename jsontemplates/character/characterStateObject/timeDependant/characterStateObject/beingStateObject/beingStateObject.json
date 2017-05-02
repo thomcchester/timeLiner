@@ -1,0 +1,6 @@
+"beingStateObject":{
+  "beingStateObjectID":"number",
+  "biologiqueID":"number",
+  "geneticsObjectID":"number",
+  "machineObject":"number"
+}

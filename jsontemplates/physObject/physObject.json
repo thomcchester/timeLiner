@@ -1,0 +1,8 @@
+"physObject":{
+  "physObjectID":"number",
+  "timeLocations":{"[array of timeLocationIDs]"},
+  "possession":{"[array of arrays of [characterID,timeLocationID(for start),timeLocationID(stopped)],[characterID,timeLocationID(for start),timeLocationID(stopped)]]"},
+  "contact":{"[array of arrays of [characterID,timelocationID,timeLocationID]]"},
+  "events":{"[array of eventID]"},
+  "chaptersActual":{"[array of chapters]"}
+}

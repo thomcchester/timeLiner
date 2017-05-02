@@ -1,0 +1,32 @@
+"characterPhysicalState":{
+  "characterPhysicalStateID":"number",
+  "oneTooTen":"number between 1 and 10",
+  "actualState":{
+    "internalPrimaryPhysicalState":"string",
+    "externalPhysicalState":"string, includes what he/she/it feels",
+    "internalSecondaryPhysicalState":["array of physical states"],
+    "externalPhysicalState":["array of physical states"]
+  },
+  "appearedToReaderState":{
+    "internalPrimaryPhysicalState":"string",
+    "externalPhysicalState":"string, includes what he/she/it feels",
+    "internalSecondaryPhysicalState":["array of physical states"],
+    "externalPhysicalState":["array of physical states"]
+  },
+  "appeardToOtherCharacterState":[
+      {
+        "characterID":"string",
+        "internalPrimaryPhysicalState":"string",
+        "externalPhysicalState":"string, includes what he/she/it feels",
+        "internalSecondaryPhysicalState":["array of physical states"],
+        "externalPhysicalState":["array of physical states"]
+      }
+    ]
+  },
+  "appearedToOwnCharacterState":{
+    "internalPrimaryPhysicalState":"string",
+    "externalPhysicalState":"string, includes what he/she/it feels",
+    "internalSecondaryPhysicalState":["array of physical states"],
+    "externalPhysicalState":["array of physical states"]
+  }
+}

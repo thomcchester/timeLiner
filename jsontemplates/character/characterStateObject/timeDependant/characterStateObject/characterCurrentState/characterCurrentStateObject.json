@@ -1,0 +1,9 @@
+"characterCurrentStateObject"{
+  "characterCurrentStateObjectID":"number",
+  "characterEmotionalStateID":"Number",
+  "characterHealthStateID":"number",
+  "characterMentalStateID":"number",
+  "characterPhysicalStateID":"number",
+  "characterSituationalStateID":"number",
+  "characterSpiritualStateID":"number"
+  }

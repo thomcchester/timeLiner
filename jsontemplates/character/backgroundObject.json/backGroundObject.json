@@ -1,0 +1,13 @@
+backGroundObject:{
+  "backGroundObjectID":"number",
+  "birthBeingStateID":"beingStateObjectID",
+  "importantBackgroundStateChanges":[
+    {"whenWhere":"timeLocationID",
+      "notes":"who/what/when/where/why",
+      "previousState":"characterTimeObjectID",
+      "newState":"characterTimeObjectID"
+    },{"repeat for more examples":"a"}
+  ],
+  "notes":"whatever string"
+
+}

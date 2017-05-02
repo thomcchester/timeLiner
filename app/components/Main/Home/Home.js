@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router';
 import HomeStore from './HomeStore'
 import HomeActions from './HomeActions';
+import CreateTimeline from '../Timeline/CreateTimeline/CreateTimeline'
 import {first, without, findWhere} from 'underscore';
 
 class Home extends React.Component {
@@ -26,9 +27,11 @@ class Home extends React.Component {
 
   render() {
 
-    return (
-      <div className="content homeScreen">
 
+    return (
+
+      <div className="content homeScreen">
+        {CreateTimeline}
       </div>
     );
   }

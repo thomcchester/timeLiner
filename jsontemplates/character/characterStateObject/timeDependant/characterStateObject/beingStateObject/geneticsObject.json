@@ -1,0 +1,6 @@
+"geneticsObject":{
+  "geneticID":"number",
+  "geneticSimilarity":{"[arry of arrays['species','number percent similarity']]"},
+  "baseGenetics":"percent different from any 2050 species",
+  "geneticTags": "immunoSpecific, longevity, strength, etc"
+}

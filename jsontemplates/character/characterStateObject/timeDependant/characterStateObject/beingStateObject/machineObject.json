@@ -1,0 +1,15 @@
+
+"machineObject":{
+  "machineID":"number",
+  "types":"array of [
+    {
+      'size':'number',
+      'intelligence':'number',
+      'quanity':'number',
+      'percentageMass':'number',
+      'percentageCells':'number',
+      'percentageIntelligence':'number'
+    },{repeat}
+    ]",
+  "tags":"mechanical, parvatus, full blown"
+}

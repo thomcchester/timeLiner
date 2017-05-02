@@ -1,0 +1,8 @@
+"chapterObject":{
+  "chapterObjectID":"number",
+  "eventArray":["array of eventObjectID"],
+  "timeLocationArray":["array of timeLocationArray"],
+  "characterArray":["array of characterIDs"],
+  "physObjectArray":["array of physObjectIDs"],
+  "informationArray":["array of informationIDs"]
+}

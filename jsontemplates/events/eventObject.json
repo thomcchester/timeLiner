@@ -1,0 +1,7 @@
+"eventObject":{
+  "eventObjectID":"number",
+  "timeLocationStart":"timeLocationID",
+  "timeLocationEnd":"timeLocationEnd",
+  "characterArray":["array of characterObjectID"],
+  "informationObject":["array of informationObjectsID"]
+}

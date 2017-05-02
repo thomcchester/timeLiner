@@ -17,12 +17,7 @@ class NavbarStore {
 
   onFindDefaultsSuccess(data){
     this.defaults = data[0];
-    this.components= this.defaults.nav.components
-    for(var i=0; i<this.components.length; i++){
-      var tabo= "/"+this.components[i].name
-      var obj ={name:this.components[i].name, link:tabo}
-      this.tabs.push(obj)
-    }
+    this.components= this.defaults
   }
 
   onGetDefaultsFail(jqXhr) {

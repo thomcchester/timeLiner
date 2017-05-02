@@ -1,0 +1,24 @@
+"timeObject"{
+  "timeObjectID":"number",
+  "current":{
+    "_comment":"for actual planning purposes of writing according to sol time",
+    "year":"number",
+    "month":"number",
+    "day":"number",
+    "hour":"number",
+    "minute":"number",
+    "second":"number"
+  },
+  "inUniverse":{
+    "_comment":"one of the standard methods of describing time",
+    "yearth":"years since transcendance on earth",
+    "pastDialation":"how much time dialation has occurred at time",
+    "e12cD":"how much dialation would occur travelling at 10^12c back to earth",
+    "e9cD":"same at 10^9c",
+    "e6cD":"same at 10^6c",
+    "e3cD":"same at 10^3c",
+    "cD":"same at c",
+    ".9cD":"same at .9c",
+    ".5c":"same at .5c"
+  }
+}

@@ -1,0 +1,10 @@
+"characterTotalObject":{
+  "characterTotalObjectID":"number",
+  "backgroundCharacterObjectID":"backgroundCharacterObjectID",
+  "charactersPath":[{
+    "characterTimeObjectID":"characterTimeObjectID",
+    "eventObjectID":"eventObjectID",
+    "chapterObjectID":"chapterObjectID",
+    "timeLocationID":"timeLocationID"
+  },{"string":"of"},{"all":"life events"}]
+}

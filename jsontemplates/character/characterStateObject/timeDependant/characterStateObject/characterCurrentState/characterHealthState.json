@@ -1,0 +1,28 @@
+"characterHealthState":{
+  "characterHealthStateID":"number",
+  "actualState":{
+    "physicalHealth":"string of notes",
+    "electronics":"string of notes",
+    "immuno":"string of notes"
+  },
+  "appearedToReaderState":{
+    "physicalHealth":"string of notes",
+    "electronics":"string of notes",
+    "immuno":"string of notes"
+  },
+  "appeardToOtherCharacterState":[
+    {
+      "characterID":"number",
+      "physicalHealth":"string of notes",
+      "electronics":"string of notes",
+      "immuno":"string of notes"
+    }
+
+  ],
+  "appearedToOwnCharacterState":{
+    "physicalHealth":"string of notes",
+    "electronics":"string of notes",
+    "immuno":"string of notes"
+  }
+
+}

@@ -1,0 +1,9 @@
+"locationObject":{
+  "locationObjectID":"number",
+  "galaxy":"string",
+  "localArm":"string",
+  "threeStar":{
+    "starOne":"string",
+    "starTwo":"string",
+    "starThree":"string"
+  }

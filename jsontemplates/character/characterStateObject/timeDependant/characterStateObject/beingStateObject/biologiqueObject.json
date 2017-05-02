@@ -1,0 +1,15 @@
+"biologiqueObject":{
+  "biologiqueID":"number",
+  "_comment":"symbiotic *life*/*machines*",
+  "types":"array of [
+    {
+      'size':'number',
+      'intelligence':'number',
+      'quanity':'number',
+      'percentageMass':'number',
+      'percentageCells':'number',
+      'percentageIntelligence':'number'
+    },{repeat}
+    ]",
+  "tags":"virus-only, two-human, full-symbiote, etc"
+}

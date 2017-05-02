@@ -1,0 +1,32 @@
+"characterEmotionalState":{
+  "characterEmotionalStateID":"number",
+  "oneTooTen":"number between 1 and 10",
+  "actualState":{
+    "internalPrimaryEmotionalState":"string",
+    "externalEmotionalState":"string, includes what he/she/it feels",
+    "internalSecondaryEmotionalState":["array of emotions"],
+    "externalEmotionalState":["array of emotions"]
+  },
+  "appearedToReaderState":{
+    "internalPrimaryEmotionalState":"string",
+    "externalEmotionalState":"string, includes what he/she/it feels",
+    "internalSecondaryEmotionalState":["array of emotions"],
+    "externalEmotionalState":["array of emotions"]
+  },
+  "appeardToOtherCharacterState":[
+      {
+        "characterID":"string",
+        "internalPrimaryEmotionalState":"string",
+        "externalEmotionalState":"string, includes what he/she/it feels",
+        "internalSecondaryEmotionalState":["array of emotions"],
+        "externalEmotionalState":["array of emotions"]
+      }
+    ]
+  },
+  "appearedToOwnCharacterState":{
+    "internalPrimaryEmotionalState":"string",
+    "externalEmotionalState":"string, includes what he/she/it feels",
+    "internalSecondaryEmotionalState":["array of emotions"],
+    "externalEmotionalState":["array of emotions"]
+  }
+}

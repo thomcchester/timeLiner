@@ -1,0 +1,10 @@
+"characterSituationalState":{
+  "characterSituationalStateID":"number",
+  "readerPerspective":"string of notes",
+  "otherCharacterPerspective":[{
+    "characterID":"number",
+    "notes":"String of notes"
+    }],
+  "characterPerspective":"string of notes",
+  "actual":"string of notes"
+}
