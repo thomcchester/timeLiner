@@ -9,3 +9,6 @@ var chapterSchema = new Schema({
   physObjectArray: [{ physObjectID: { type: Number}}],
   informationArray: [{ informationID: { type: Number}}]
 })
+
+
+module.exports = mongoose.model("chapterSchema", chapterSchema);

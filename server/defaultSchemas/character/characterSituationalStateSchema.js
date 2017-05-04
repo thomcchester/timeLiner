@@ -11,3 +11,5 @@ var characterSituationalStateSchema = new Schema({
   characterPerspective: { type: String},
   actual: {type: String}
 })
+
+module.exports = mongoose.model("characterSituationalStateSchema", characterSituationalStateSchema);

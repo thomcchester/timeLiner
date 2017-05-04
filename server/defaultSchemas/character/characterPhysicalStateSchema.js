@@ -31,3 +31,5 @@ var characterPhysicalStateSchema = new Schema({
     }
   ]
 })
+
+module.exports = mongoose.model("characterPhysicalStateSchema", characterPhysicalStateSchema);

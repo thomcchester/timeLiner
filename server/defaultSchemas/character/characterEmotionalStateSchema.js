@@ -33,3 +33,5 @@ var characterEmotionalStateSchema = new Schema({
     externalSecondaryEmotionalState: [{ type: String}]
   }]
 })
+
+module.exports = mongoose.model("characterEmotionalStateSchema", characterEmotionalStateSchema);

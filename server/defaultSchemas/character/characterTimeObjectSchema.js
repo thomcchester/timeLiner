@@ -6,3 +6,5 @@ var characterTimeObjectSchema = new Schema({
   characterCurrentStateID: {type: Number},
   characterBeingObjectID: {type: Number},
 })
+
+module.exports = mongoose.model("characterTimeObjectSchema", characterTimeObjectSchema);

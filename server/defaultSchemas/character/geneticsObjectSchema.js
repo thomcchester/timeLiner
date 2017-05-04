@@ -13,3 +13,5 @@ var geneticsObjectSchema = new Schema({
   baseGenetics:{type: String} //percent different from 2050 species
   geneticsTag: {type: String} //imunnoSpecific, longevity, strength
 })
+
+module.exports = mongoose.model("geneticsObjectSchema", geneticsObjectSchema);

@@ -17,3 +17,5 @@ var physSchema = new Schema({
   events:[{eventID: {type: Number}}],
   chaptersActual:[{chapterID: {type: Number}}]
 })
+
+module.exports = mongoose.model("physSchema", physSchema);

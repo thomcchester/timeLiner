@@ -10,3 +10,5 @@ var characterCurrentStateSchema = new Schema({
   characterSituationalStateID: { type: Number},
   characterSpiritualStateID: { type: Number}
 })
+
+module.exports = mongoose.model("characterCurrentStateSchema", characterCurrentStateSchema);

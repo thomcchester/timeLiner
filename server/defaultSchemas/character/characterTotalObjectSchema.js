@@ -13,3 +13,5 @@ var characterTotalObjectSchema = new Schema({
     }
   ]
 })
+
+module.exports = mongoose.model("characterTotalObjectSchema", characterTotalObjectSchema );

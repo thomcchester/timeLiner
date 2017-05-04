@@ -9,3 +9,5 @@ var informationSchema = new Schema({
   timeLocationArray: [{type: Number}],
   strings: {type: String}
 })
+
+module.exports = mongoose.model("informationObjectSchema", informationObjectSchema);

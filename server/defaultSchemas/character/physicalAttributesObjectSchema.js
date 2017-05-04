@@ -6,3 +6,5 @@ var physicalAttributesObjectSchema = new Schema({
   _comment: {type: String},//bone graphs, claws, artifical fiberss,
   tags: {type: String}
 })
+
+module.exports = mongoose.model("physicalAttributesObjectSchema", physicalAttributesObjectSchema);

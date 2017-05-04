@@ -8,3 +8,5 @@ var eventSchema = new Schema({
   characterArray: [{type: Number}],//array of characterObjectIDs
   informationArray: [{type: Number}]//array of information objects relevent
 })
+
+module.exports = mongoose.model("eventSchema", eventSchema);

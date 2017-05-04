@@ -13,3 +13,5 @@ var backgroundSchema = new Schema({
     }
   ]
 })
+
+module.exports = mongoose.model("backgroundSchema", backgroundSchema);

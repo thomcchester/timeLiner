@@ -7,3 +7,5 @@ var beingStateSchema = new Schema({
   geneticsObjectID: { type: Number},
   machineObjectID: { type: Number}
 })
+
+module.exports = mongoose.model("beingStateSchema", beingStateSchema);

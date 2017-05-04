@@ -25,3 +25,4 @@ var characterHealthStateSchema = new Schema({
     immuno: { type: String}
   }
 })
+module.exports = mongoose.model("characterHealthStateSchema", characterHealthStateSchema);

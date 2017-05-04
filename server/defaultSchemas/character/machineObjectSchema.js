@@ -25,3 +25,5 @@ var machineObjectSchema = new Schema({
   }],
 
 })
+
+module.exports = mongoose.model("machineObjectSchema", machineObjectSchema);

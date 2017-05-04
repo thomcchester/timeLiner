@@ -15,3 +15,5 @@ var biologiqueSchema = new Schema({
   ],
   tags:[{ type: String }]
 })
+
+module.exports = mongoose.model("biologiqueSchema", biologiqueSchema);

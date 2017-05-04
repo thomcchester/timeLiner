@@ -9,3 +9,4 @@ var timeLineObjectBase = new Schema({
   chapters: {[{chapterID: Number}]},
   timeLocations: {[{timeLocationID: Number}]}
 })
+module.exports = mongoose.model("timeLineObjectSchema", timeLineObjectSchema);

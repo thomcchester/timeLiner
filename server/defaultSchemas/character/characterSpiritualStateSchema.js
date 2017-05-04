@@ -33,3 +33,5 @@ var characterSpiritualStateSchema = new Schema({
     externalSecondarySpiritualState: [{ type: String}]
   }]
 })
+
+module.exports = mongoose.model("characterSpiritualStateSchema", characterSpiritualStateSchema);
