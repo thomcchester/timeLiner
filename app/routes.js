@@ -10,6 +10,5 @@ import request from 'superagent';
 export default (
   <Route component={App}>
     <Route path='/' component={Home} />
-    <Route path="/"
   </Route>
 );
