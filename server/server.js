@@ -4,9 +4,7 @@ var express = require('express');
 var path = require('path');
 var logger = require('morgan');
 var bodyParser = require('body-parser');
-var passport = require('passport');
 var session = require('express-session');
-var localStrategy = require('passport-local');
 var cookieParser = require('cookie-parser')
 
 var swig  = require('swig');
@@ -54,40 +52,6 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(passport.initialize());
-app.use(passport.session());
-
-// PASSPORT SESSION
-passport.serializeUser(function(user, done){
-    done(null, user.id);
-});
-passport.deserializeUser(function(id, done){
-    Admin.findById(id, function(err, user){
-        if(err) done(err);
-        done(null, user);
-    });
-});
-passport.use('local', new localStrategy({
-    passReqToCallback: true,
-    usernameField: 'username'
-    },
-    function(req, username, password, done){
-        Admin.findOne({username: username}, function(err, user){
-            if(err) throw err;
-            if(!user){
-                return done(null, false);
-            }
-            user.comparePassword(password, function(err, isMatch){
-                if(err) throw err;
-                if(isMatch){
-                    return done(null, user);
-                }else{
-                    done(null, false);
-                }
-            });
-        });
-    }
-));
 
 
 app.use("/defaults", defaultRoute);
